@@ -117,8 +117,8 @@ function displayBooks() {
       <td>
           <button class="edit-button" onclick="toggleEdit(${index})">Edit</button>
           <button class="save-button" style="display: none;" onclick="saveEdit(${index})">Save</button>
-          <button class="cancel-button" style="display: none;" onclick="cancelEdit(${index})">Cancel</button>
-          <button class="delete-button" onclick="deleteBook(${index})">Delete</button>
+          <button class="cancel-button" style="display: none; background-color: #e73535;" onclick="cancelEdit(${index})">Cancel</button>
+          <button class="delete-button" onclick="deleteBook(${index})" style="background-color: #e73535;">Delete</button>
       </td>
   `;
   });
